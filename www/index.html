@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" >
+  <title>BlueSkyPad</title>
+  <link rel="icon" type="image/x-icon" href="icon.png" >
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <textarea id="linewidth-guide" ></textarea>
+  <textarea id="textbox" autofocus="autofocus" placeholder="type here"></textarea>
+  <nav>
+    <span id="stats">
+      <span id="char-count">0</span> chars │
+      <span id="word-count">0</span> words │
+      <span id="line-count">0</span> lines
+    </span>
+    <span id="controls">
+      <input type="checkbox" id="spellcheck" >
+      <label for="spellcheck">spell-checking</label> │
+      <a href="#" id="print">print</a> │
+      <span id="open">
+        <input type="file" value="open" >
+        <a href="#">open</a>
+      </span>
+      <span id="save">
+        <input id="filename" placeholder="bluepad.txt" >
+        <a href="#">save</a>
+      </span> │
+      <a href="#" title="About BluePad" id="about-icon">ⓘ</a>
+    </span>
+  </nav>
+  <dialog id="about">
+    <h2>BlueSkyPad</h2>
+    <p>BluePad is a notepad in the browser, customized for BlueSky.</p>
+    <p>It is a plain text editor built entirely with HTML, CSS and JavaScript.</p>
+    <p>The source code is <a href="https://github.com/darkoverlordofdata/bluepad">available on GitHub</a>.</p>
+    <form method="dialog"><button>close</button></form>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>

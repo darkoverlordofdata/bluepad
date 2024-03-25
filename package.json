@@ -1,0 +1,11 @@
+{
+  "name": "bluepad",
+  "version": "1.0.0",
+  "description": "Format and review multi page posts before posting to bluesky social",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darkoverlordofdata",
+  "license": "ISC"
+}
